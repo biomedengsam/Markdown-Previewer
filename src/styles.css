@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+/* h3 {
+  width: 444.4px;
+} */
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+.toolbar {
+  width: 600px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  /* border: 1px solid #000; */
+  margin: auto auto -1px;
+  padding: 1px;
+  background-color: lightblue;
+}
+
+#editor {
+  min-width: 600px;
+  min-height: 400px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
